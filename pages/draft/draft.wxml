@@ -1,0 +1,4 @@
+<!--pages/draft/draft.wxml-->
+<import src='../../template/rent_template.wxml' />
+
+<template is='empty_draft'></template>

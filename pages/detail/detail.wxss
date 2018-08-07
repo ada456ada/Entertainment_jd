@@ -1,0 +1,36 @@
+.detail_title_info {
+  margin-top: 5rpx;
+  font-weight: 300;
+  font-size: 80%;
+  color: #545454;
+  margin-right: 20rpx;
+}
+image{
+  display: block;
+}
+.swiper{
+  height: 500rpx;
+}
+.detail_title_browse {
+  float: right;
+  display: inline;
+}
+
+.detail_describe {
+  background-color: white;
+}
+
+.detail_describe_title {
+  width: 96%;
+  padding: 15rpx 0rpx 25rpx 0rpx;
+  border-bottom: 1rpx solid #545454;
+  font-weight: 300;
+}
+
+.detail_describe_body {
+  padding: 0rpx 20rpx 25rpx 20rpx;
+  font-weight: 300;
+  font-size: 90%;
+  color: #545454;
+}
+

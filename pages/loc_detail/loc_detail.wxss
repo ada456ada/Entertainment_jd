@@ -1,0 +1,24 @@
+/* pages/loc_detail/loc_detail.wxss */
+
+.loc_list_info {
+  font-weight: 400;
+  max-height: 90px;
+  color: #444;
+  font-size: 90%;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
+.loc_detail_info {
+  font-weight: 350;
+  font-size: 90%;
+  color: #444;
+}
+
+.comments{
+  padding-bottom: 100rpx;
+}

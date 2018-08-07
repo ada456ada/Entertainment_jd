@@ -1,0 +1,5 @@
+<form>
+  <label class='form_lable'>请描述您的问题：</label>
+  <textarea name='Qfb_textare' class='edit_textare'></textarea>
+  <button onSubmit='submit'>提交</button>
+</form>

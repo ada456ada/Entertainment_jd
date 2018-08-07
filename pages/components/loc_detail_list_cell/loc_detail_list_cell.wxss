@@ -1,0 +1,36 @@
+.loc_list_cell {
+  border-bottom: 3px solid #eee;
+  padding: 30rpx 20rpx 25rpx 20rpx;
+}
+
+.loc_list_author {
+  font-weight: 300;
+  font-size: 80%;
+  color: #545454;
+  margin: 10rpx 0rpx 5rpx 0rpx;
+}
+
+.answer_num {
+  float: right;
+  display: inline;
+  padding-left: 30rpx;
+}
+
+.comment_icon {
+  margin-right: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.loc_list_info {
+  font-weight: 400;
+  max-height: 90px;
+  color: #444;
+  font-size: 90%;
+  display: -webkit-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}

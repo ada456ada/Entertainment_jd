@@ -1,0 +1,7 @@
+<!--pages/components/expression/expression.wxml-->
+<view class='comment_box' bindtap='check_log'>
+  <!--<input placeholder-class='phcolor' type='text' placeholder='{{type}}' name='' bindinput='getInput'></input>-->
+  <textarea disabled maxlength='5000' fixed='true' auto-height='true' placeholder-class='phcolor' placeholder="{{type}}" bindinput='getInput' value='{{yes}}'></textarea> 
+  <image src='../../../img/expression.png'></image>
+  <button bindtap='submit'>发表</button>
+</view>

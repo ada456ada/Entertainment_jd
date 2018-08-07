@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "usingComponents":{
+    "stamp_detail":"../components/detail/detail"
+  }
+}

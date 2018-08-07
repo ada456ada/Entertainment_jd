@@ -1,0 +1,13 @@
+<!--pages/components/loc_detail_list_cell/loc_detail_list_cell.wxml-->
+<view class='loc_list_cell'>
+    <view class='loc_list_author'>
+      <text>{{item.author}}</text>
+      <view class='answer_num'>
+        <image src='{{thumb_img}}' class='comment_icon' bindtap='thumb'></image>
+        <text>{{item.comment_num}}</text>
+      </view>
+    </view>
+    <view class='loc_list_info'>
+      <text>{{item.text}}</text>
+    </view>
+  </view>

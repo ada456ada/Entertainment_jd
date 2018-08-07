@@ -1,0 +1,10 @@
+@import "../../css/weui.wxss";
+.me_above{
+  width: 100%; 
+  background-color: '#1bd0bd';
+  text-align: center;
+}
+.user_img{
+  width: 130rpx;
+  height: 130rpx;
+}

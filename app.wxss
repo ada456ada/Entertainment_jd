@@ -1,0 +1,37 @@
+/**app.wxss**/
+@import 'css/weui.wxss';
+.edit_textare{
+  border: 1rpx solid #000;
+  border-radius: 5rpx;
+  width: auto;
+  margin: 20rpx 20rpx 10rpx 20rpx;
+}
+.detail_title {
+  padding: 5rpx 0rpx 35rpx 20rpx;
+  border-bottom: 15rpx solid #eee;
+}
+
+.loc_list_cell {
+  border-bottom: 3px solid #eee;
+  padding: 30rpx 20rpx 25rpx 20rpx;
+}
+
+.loc_list_author {
+  font-weight: 300;
+  font-size: 80%;
+  color: #545454;
+  margin: 10rpx 0rpx 5rpx 0rpx;
+}
+
+.answer_num {
+  float: right;
+  display: inline;
+}
+
+.comment_icon {
+  margin-right: 10rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+

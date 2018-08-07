@@ -1,0 +1,92 @@
+<template name='list_cell'>
+  <navigator url='../detail/detail?item={{item.json}}'>
+    <view class='list_item'>
+      <view class='list_img'>
+        <image src='{{item.img_pic||"../../img/nofound.png"}}' class='rent_img'></image>
+      </view>
+
+      <view>
+        <view class='body_header'>
+          <text>{{item.title}}</text>
+        </view>
+
+        <view class='body_middle'>
+          <text>{{item.order_type}}</text>
+          <text class='body_middle_cell'>{{item.sell_num}}</text>
+        </view>
+
+        <view class='body_footer'>
+          <text class='body_footer_price'>{{item.price}}</text>
+          <text class='body_footer_data'>志编号:{{item.identifier}}</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+
+</template>
+
+<template name='empty_draft'>
+  <view class='draft_box'>
+    <image src='../../img/draft.png' class='draft_pic'></image>
+    <view>草稿箱是空的</view>
+  </view>
+</template>
+
+<template name='draft'>
+  <input type='text'alt='yes' value='yy'></input>
+</template>
+
+<template name='search_cell'>
+  <navigator url="" class="weui-cell" hover-class="weui-cell_active">
+    <view class="weui-cell__bd">
+      <view>{{inputVal}}</view>
+    </view>
+  </navigator>
+</template>
+
+<template name='loc_list_cell'>
+  <navigator url='../loc_detail/loc_detail?item={{item.json}}'>
+    <view class='loc_list_cell'>
+      <view class='loc_list_title'>
+        <text>{{item.title}}</text>
+      </view>
+
+      <view class='loc_list_author'>
+        <text>{{item.author}}</text>
+        <view class='answer_num'>
+          <image src='../../img/comment.png' class='comment_icon'></image>
+          <text>{{item.answer_num}}</text>
+        </view>
+      </view>
+
+      <view class='loc_list_info'>
+        <text>{{item.info}}</text>
+      </view>
+    </view>
+  </navigator>
+</template>
+
+<template name='loc_detail_list_cell'>
+  <view class='loc_list_cell'>
+    <view class='loc_list_author'>
+      <text>{{item.author}}</text>
+      <view class='answer_num'>
+        <image src='../../img/thumb.png' class='comment_icon' bindtap='thumb'></image>
+        <text>{{item.comment_num}}</text>
+      </view>
+    </view>
+    <view class='loc_list_info'>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+</template>
+
+<template name='swiper'>
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="2000" duration="500" circular='true'>
+    <block wx:for="{{movies}}" wx:for-index="index">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode="aspectFill" />
+      </swiper-item>
+    </block>
+  </swiper>
+</template>

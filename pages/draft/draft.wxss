@@ -1,0 +1,10 @@
+/* pages/draft/draft.wxss */
+.draft_box{
+  width: 100%;
+  text-align: center;
+}
+
+.draft_pic{
+  width: 130rpx;
+  height: 130rpx;
+}

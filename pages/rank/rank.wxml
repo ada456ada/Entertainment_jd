@@ -1,0 +1,9 @@
+<!--pages/rank/rank.wxml-->
+<import src='../../template/rent_template.wxml' />
+
+<!-- 搜索栏 -->
+ <search_bar></search_bar> 
+
+<view wx:for='{{list_arr}}'>
+  <template is='list_cell' data="{{item}}" />
+</view>

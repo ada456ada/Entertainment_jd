@@ -1,0 +1,31 @@
+<!--pages/detail/detail.wxml-->
+  <!-- <image src='{{item.img_pic}}'></image>   -->
+<template is='swiper' data='{{movies}}'/> 
+<import src='../../template/rent_template.wxml' />
+
+<!-- 标题 -->
+<view class='detail_title'>
+ 
+  <view>
+    <text>{{item.title}}</text>
+  </view>
+  <view class='detail_title_info'>
+    <text>发表：{{item.data}}</text>
+    <text class='detail_title_browse'>浏览 : 0次</text>
+  </view>
+</view>
+
+<!-- 邮票详情 -->
+<stamp_detail stamp_list='{{stamp_list}}'></stamp_detail>
+
+<!-- 邮票背景 -->
+<view class='detail_title'>
+  <view class='detail_describe'>
+    <view class='detail_describe_title'>
+      <text>邮票背景</text>
+    </view>
+    <view class='detail_describe_body'>
+      <text>{{background}}</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+.list_item{
+  height:200rpx;
+  border-bottom: 1px solid #eee;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  }
+.rent_img{
+  width: 180rpx;
+  height: 180rpx;
+  margin: 0.4rem 0.6rem 0rem 0.7rem;
+}
+.list_img{
+  float:left;
+}
+.body_header{
+  height: 46px;
+  overflow: hidden;
+}
+.body_middle_cell{
+  margin-left: 0.8rem;
+}
+.body_middle text{
+  font-weight: 300;
+  font-size: small;
+  color: #545454;
+}
+.body_footer_price{
+  color: red;
+  font-size: small;
+}
+.body_footer_data{
+  margin-left: 0.8rem;
+  font-weight: 300;
+  font-size: small;
+  color: #545454;
+}

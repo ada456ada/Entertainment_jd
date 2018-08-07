@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText":"更多资讯",
+  "usingComponents": {
+    "search_bar": "../components/search_bar/search_bar",
+    "expression": "../components/expression/expression"
+  }
+}

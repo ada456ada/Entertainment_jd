@@ -1,0 +1,40 @@
+
+.comment_box {
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #eee;
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+
+.comment_box textarea {
+  margin-right: 25rpx;
+  background-color: #fff;
+  border-radius: 25rpx;
+  width: 70%;
+  border-style: solid;
+  border-color: #eee;
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  max-height: 240rpx;
+}
+
+.comment_box button {
+  width: 120rpx;
+  height: 60%;
+  margin: auto;
+  font-size: 70%;
+}
+
+.comment_box image {
+  width: 60rpx;
+  height: 60rpx;
+  margin: auto;
+}
+
+.phcolor {
+  left: 25rpx;
+}
+

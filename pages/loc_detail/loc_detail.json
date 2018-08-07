@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText":"论坛",
+  "usingComponents":{
+    "loc_detail_list_cell":"../components/loc_detail_list_cell/loc_detail_list_cell",
+    "expression":"../components/expression/expression"
+  }
+}

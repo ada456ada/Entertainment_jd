@@ -1,0 +1,25 @@
+<!--pages/loc/loc.wxml-->
+<import src='../../template/rent_template.wxml' />
+
+
+
+<view class='user_loc'>
+  <view class='user_loc_filter'>
+
+    <!-- 轮播图 -->
+    <template is='swiper' data='{{movies}}' />
+
+    <!-- 搜索栏 -->
+    <search_bar_sim></search_bar_sim>
+  </view>
+</view>
+
+<view class='suggest_for_u'>
+  <image src='../../img/suggest_for_u.png'></image>
+  <text>  为你推荐</text>
+  <navigator url='../more/more' class='more'>点击查看更多</navigator>
+</view>
+
+<view wx:for='{{index_list}}'>
+  <template is='loc_list_cell' data='{{item}}' />
+</view>

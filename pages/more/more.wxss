@@ -1,0 +1,91 @@
+/* pages/more/more.wxss */
+
+.loc_list_author text {
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+
+.more_list{
+  padding-bottom: 100rpx;
+}
+
+.nofound {
+  text-align: center;
+  margin-top: 100rpx;
+}
+
+.nofound image {
+  width: 400rpx;
+  height: 400rpx; 
+}
+.nofound text{
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+}
+
+.classify {
+  font-size: 100%;
+  white-space: nowrap;
+  padding: 0rpx;
+}
+
+.loc_list_title {
+  font-weight: 500;
+}
+
+.loc_list_info {
+  overflow: hidden;
+  font-weight: 400;
+  height: 47px;
+  color: #444;
+  font-size: 90%;
+}
+
+
+
+
+
+.comment_box {
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #eee;
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+
+.comment_box textarea {
+  margin-right: 25rpx;
+  background-color: #fff;
+  border-radius: 25rpx;
+  width: 70%;
+  border-style: solid;
+  border-color: #eee;
+  display: inline-block;
+  text-align: left;
+  margin: auto;
+  max-height: 240rpx;
+}
+
+.comment_box button {
+  width: 120rpx;
+  height: 60%;
+  margin: auto;
+  font-size: 70%;
+}
+
+.comment_box image {
+  width: 60rpx;
+  height: 60rpx;
+  margin: auto;
+}
+
+.phcolor {
+  left: 25rpx;
+}
+

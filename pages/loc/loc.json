@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "论坛",
+  "usingComponents": {
+    "search_bar_sim": "../components/search_bar_sim/search_bar_sim"
+  }
+}

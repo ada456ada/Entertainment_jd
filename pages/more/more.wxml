@@ -1,0 +1,38 @@
+<!--pages/more/more.wxml-->
+<import src='../../template/rent_template.wxml' />
+<search_bar></search_bar>
+
+<scroll-view scroll-x="true">
+  <view class='classify loc_list_author detail_title' bindtap='titleClick'>
+    <text id='0' data-value='all' style='color:{{position[0]?"red":""?"red":""}};'>全部</text>
+    <text id='1' data-value='handwriting' style='color:{{position[1]?"red":""}};'>书法</text>
+    <text id='2' data-value='painting' style='color:{{position[2]?"red":""}};'>绘画</text>
+    <text id='3' data-value='money' style='color:{{position[3]?"red":""}};'>钱币</text>
+    <text id='4' data-value='stamp' style='color:{{position[4]?"red":""}};'>邮票</text>
+    <text id='5' data-value='mounting' style='color:{{position[5]?"red":""}};'>封片</text>
+    <text id='6' data-value='ticket' style='color:{{position[6]?"red":""}};'>票证</text>
+    <text id='7' data-value='heritage' style='color:{{position[7]?"red":""}};'>非遗</text>
+    <text id='8' data-value='art_work' style='color:{{position[8]?"red":""}};'>工艺品</text>
+    <text id='9' data-value='other' style='color:{{position[9]?"red":""}};'>其他</text>
+  </view>
+</scroll-view>
+
+
+
+<view class='more_list'>
+  <block wx:for='{{more_list}}'>
+    <template is='loc_list_cell' data='{{item}}' />
+  </block>
+</view>
+
+
+<view hidden='{{nothing}}' class='nofound'>
+  <image src='../../img/nofound.png'></image>
+  <text>暂无数据</text>
+</view>
+
+<view class='comment_box' bindtap='ok'>
+  <button style='width:60%;'>我要发帖</button>
+</view>
+
+<!-- <expression type='发表' /> -->

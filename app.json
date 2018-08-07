@@ -1,0 +1,46 @@
+{
+  "pages": [
+    
+    "pages/more/more",
+    "pages/loc/loc",
+    "pages/me/me",
+    "pages/edit_post/edit_post",
+    "pages/rank/rank",
+    "pages/loc_detail/loc_detail",
+    "pages/draft/draft",
+    "pages/Qfeedback/Qfeedback",
+    "pages/aboutus/aboutus",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1bd0bd",
+    "navigationBarTitleText": "测试",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#1bd0bd",
+    "color": "#1bd0bd",
+    "list": [
+      {
+        "iconPath": "img/loc.png",
+        "text": "论坛",
+        "selectedIconPath": "img/locclick.png",
+        "pagePath": "pages/loc/loc"
+      },
+      {
+        "iconPath": "img/rank.png",
+        "text": "商品",
+        "selectedIconPath": "img/rankclick.png",
+        "pagePath": "pages/rank/rank"
+      },
+      {
+        "iconPath": "img/me.png",
+        "text": "我的",
+        "selectedIconPath": "img/meclick.png",
+        "pagePath": "pages/me/me"
+      }
+    ]
+  }
+}

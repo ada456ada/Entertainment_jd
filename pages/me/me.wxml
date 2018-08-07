@@ -1,0 +1,26 @@
+<view>
+  <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" hidden='{{login}}'>登陆微信账号</button>
+
+  <view class='me_above'>
+    <image src="{{user_info.avatarUrl||'../../img/login.png'}}" class='user_img'></image>
+    <view>{{user_info.nickName||'您尚未登陆'}}</view>
+  </view>
+  <view class="weui-cells__title">选择你需要的服务</view>
+  <view class="weui-cells weui-cells_after-title">
+
+    <navigator url="../draft/draft" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">草稿箱</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+
+    <navigator url="../Qfeedback/Qfeedback" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">问题反馈</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+
+    <navigator url="../aboutus/aboutus" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+      <view class="weui-cell__bd">关于我们</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+    </navigator>
+  </view>
+</view>

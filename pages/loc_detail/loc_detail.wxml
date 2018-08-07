@@ -1,0 +1,20 @@
+<!--pages/loc_detail/loc_detail.wxml-->
+<import src='../../template/rent_template.wxml' />
+
+<view class='loc_list_cell detail_title'>
+
+  <text style='display:block;'>{{item.title}}</text>
+  <text class='loc_detail_info'>{{item.info}}</text>
+
+  <view class='loc_list_author'>
+    <text>{{item.answer_num}}个回答</text>
+    <text style="color:{{concern_box.color}}" class='answer_num' bindtap='concern'>{{concern_box.text}}</text>
+  </view>
+</view>
+
+<view class='comments'>
+  <block wx:for='{{loc_detail_cell}}'>
+    <loc_detail_list_cell item='{{item}}'></loc_detail_list_cell>
+  </block>
+</view>
+<expression user_name='{{userInfo.nickName}}' page_id='{{page_id}}' bindfresh="fresh"></expression>

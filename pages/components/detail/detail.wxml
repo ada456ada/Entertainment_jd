@@ -1,0 +1,24 @@
+<view class='detail_title'>
+  <view class='detail_describe_title'>
+    <text>邮票详情</text>
+  </view>
+  <view class='table'>
+    <view class='tr' wx:for='{{stamp_list}}' wx:for-item='inner_arr'>
+      <block wx:for='{{inner_arr}}' wx:for-index='inner_id' wx:for-item='inner_item' class='td_box'>
+        <block wx:if='{{inner_arr.length!==1}}'>
+          <view class='td common'>
+            <text>{{inner_item.key}}</text>
+          </view>
+          <view class='td_value common'>
+            <text>{{inner_item.value}}</text>
+          </view>
+        </block>
+        <block wx:else>
+          <view class='common td_name'>{{inner_item.value}}</view>
+        </block>
+      </block>
+
+
+    </view>
+  </view>
+</view>
