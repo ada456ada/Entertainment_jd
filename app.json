@@ -1,8 +1,8 @@
 {
   "pages": [
-    
-    "pages/more/more",
     "pages/loc/loc",
+    "pages/more/more",
+    
     "pages/me/me",
     "pages/edit_post/edit_post",
     "pages/rank/rank",
