@@ -4,10 +4,6 @@
     $username = "root";
     $password = "root";
     $dbname = "test";
-    // $servername = "flhhc4x2.2363.dnstoo.com";
-    // $username = "wxcheck_f";
-    // $password = "ada456ada456";
-    // $dbname = "wxcheck";
 
     // 创建连接
     $conn = new mysqli($servername, $username, $password, $dbname);
